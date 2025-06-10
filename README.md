@@ -96,19 +96,6 @@ The "Smart Pill" tracks temperature, light, battery, and orientation as it moves
 - Link to video technical presentation: [Technical Presentation](https://drive.google.com/file/d/1WAg6dNmaZUGKDJ7yxstegLMrAWHKJhu-/view?usp=sharing)
 - Link to video demo [video demo](https://drive.google.com/file/d/1Q0cmgKvMJzyynExxrp9cXvPJPhaWtwVe/view?usp=drive_link)
 
-### Self-Assessment 
-
-| Objective Criterion | Rating | Max Value  | 
-|---------------------------------------------|:-----------:|:---------:|
-| Objective One | 1 |  1     | 
-| Objective Two | 1 |  1     | 
-| Objective Three | 1 |  1     | 
-| Objective Four | 1 |  1     | 
-| Objective Five | 1 |  1     | 
-| Objective Six | 1 |  1     | 
-| Objective Seven | 1 |  1     | 
-
-
 
 ### AI and Open Source Code Assertions
 
