@@ -1,6 +1,6 @@
 # Ingestible "Smart Pill"
 
-Authors: Cristian Palencia, Yohank Kim, Zhiang Gui, Tanveer Dhilon
+Authors: Cristian Palencia, Yohan Kim, Zhiang Gui, Tanveer Dhilon
 
 Date: 2024-09-20
 
