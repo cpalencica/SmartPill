@@ -5,7 +5,7 @@ Authors: Cristian Palencia, Yohank Kim, Zhiang Gui, Tanveer Dhilon
 Date: 2024-09-20
 
 ### Summary
-The quest was about creating a ingestible smart pill that would display over UART a set of relevant data. This data would include data about the current temperature, battery of the pill, time duration, light readings, and orientation. The purpose would be that we would be able to monitor the values under 3 conditions: 1. when the pill has not been swallowed, 2. when the pill has been swallowed, and 3. when the pill has left the body. These 3 conditions would be displayed via 3 LEDs, green meaning that the pill was ready to be swallowed, blue meaning that the pill has been swallowed and is inside the body, and red meaning that the pill has left the body. Additional, in the need for a reset, we would have a button that would reset the state that the LEDs were in and also resetting the time elapsed in the program.
+This project was about creating a ingestible smart pill that would display over UART a set of relevant data. This data would include data about the current temperature, battery of the pill, time duration, light readings, and orientation. The purpose would be that we would be able to monitor the values under 3 conditions: 1. when the pill has not been swallowed, 2. when the pill has been swallowed, and 3. when the pill has left the body. These 3 conditions would be displayed via 3 LEDs, green meaning that the pill was ready to be swallowed, blue meaning that the pill has been swallowed and is inside the body, and red meaning that the pill has left the body. Additional, in the need for a reset, we would have a button that would reset the state that the LEDs were in and also resetting the time elapsed in the program.
 
 In order to get the quest to work we had several implementations:
 
@@ -88,7 +88,7 @@ State Diagram of LED Display
 </p>
 
 
-### Quest Summary
+### Project Summary
 The "Smart Pill" tracks temperature, light, battery, and orientation as it moves through the body, using LEDs to show its state (ready, swallowed, or exited). It sends data every 2 seconds via UART and can be reset for reuse. Challenges included sensor calibration and interrupt-driven state management. Another challenge was keeping wires organized while building the circuit and using the tilt sensor. We used voltage dividers for safe battery and temperature readings, while the photocell was calibrated to detect light changes and adjust the pill's state. Interrupts controlled the tilt sensor and LEDs, ensuring accurate tracking of the pill’s position and status.
 
 
